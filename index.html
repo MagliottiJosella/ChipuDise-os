@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/img/My project.jpg" type="img/x-icon">
     <title>HOME</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/ccs/style.css">
 </head>
 <body class="container">
@@ -33,17 +34,17 @@
 
     <header class="header">
         <div class="cajaPortada">
-            <h1 Class="Titulo">Chipu Diseño</h1>  
+            <h1 data-aos="zoom-in" Class="Titulo">Chipu Diseño</h1>  
         </div>
     </header>
 
 
     <main class="main">
 
-        <div class="Novedades"><h3 >Bienvenidos, estamos creando para vos</h3></div>
-        <div class="Novedades"><h2 >Novedades</h2></div>
+        <div  class="Novedades"><h3 data-aos="flip-left" >Bienvenidos, estamos creando para vos</h3></div>
+        <div  class="Novedades"><h2 >Novedades</h2></div>
        
-        <div class="tarjetasnovedades">
+        <div  class="tarjetasnovedades">
             <div class="tarjetaNovedad1">
                 <h3 class="tarjetaNovedad1_titulo">Otilia</h3>
                 <img class="tarjetaNovedad1_img" src="./assets/img/otilia1.jpeg" alt="otilia">
@@ -76,6 +77,11 @@
         </div>
         
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     
 </body>
 </html>
