@@ -74,12 +74,13 @@
 .Novedades h2{
   
     font-size: 40px;
-    padding-top: 20px;
+    padding: 40px;
 }
 
 .Novedades h3{
-  
+    margin:0%;
     color: black;
+
 }
 
 
@@ -479,6 +480,7 @@
     font-style: oblique;
     padding: 50px;
     color: rgb(78, 0, 114);
+  
 }
 
 .Bloquecondiciones_descripcion{
@@ -591,6 +593,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    
   
   
 }
@@ -599,9 +602,7 @@
     display: inline-block;
     padding: 10px;
     font-size: 20px;
-    font-size:x-large;
-    
-    
+    font-size:x-large;  
     
 }
 .logo{
@@ -657,9 +658,9 @@
     margin-right: 10px;
 }
 
-.Saludos{
+.Saludos h2{
     font-style: oblique;
-    font-size: 10px;
+    font-size: 15px;
     margin-left: 10px;
 
 }
@@ -911,6 +912,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+   
     
 }
 
