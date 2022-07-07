@@ -1,0 +1,107 @@
+
+@media(min-width:768px){
+
+    
+.Bloquecondiciones{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(237, 236, 203);
+    height: 300px;
+    border: 2px solid rgb(78, 0, 114);
+
+    Bloquecondiciones_titulo{
+        text-align: center;
+        font-size: 30px;
+        font-style: oblique;
+        padding: 50px;
+        color: rgb(78, 0, 114);
+    }
+    
+    Bloquecondiciones_descripcion{
+        text-align: center;
+        font-size: 15px;
+        font-style: oblique;
+        padding: 20px;
+    
+    }
+    Bloquecondiciones_acepto{
+    
+        text-align: center;
+        font-weight: 900;
+        font-size: 25px;
+        font-style: oblique;
+        padding: 20px;
+    
+    }
+
+}
+
+
+
+.bloqueeleccion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(237, 236, 203);
+    height: 400px;
+
+    bloqueeleccionTitulo{
+        text-align: center;
+        font-weight: 900;
+        font-size: 35px;
+        font-style: oblique;
+        padding: 20px;
+        color:rgb(78, 0, 114) ;
+    
+    }
+    
+    bloqueeleccionTituloProductos{
+    
+        text-align: center;
+        font-size: 25px;
+        margin: 20px;
+    
+    }
+    
+    bloqueeleccionTituloCantidades{
+        text-align: center;
+        font-size: 20px;
+        margin: 20px;
+    
+    }
+    
+    bloqueeleccion_email{
+        text-align: center;
+        font-size: 20px;
+        margin: 20px;
+    
+    }
+   
+}
+
+
+.headermayorista{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(237, 236, 203);
+
+    tituloHeadermayorista{
+        background-image: url(../img/portada4.png);
+        background-size:contain;
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        
+        font-size: 60px;
+        font-style: oblique;
+    }
+}
+
+
+}
+

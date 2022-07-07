@@ -84,10 +84,11 @@
 
 }
 
+/*---------------------- tarjetas para usar si no uso boostrap
 
 .tarjetasnovedades{
     display: flex;
-    flex-direction: column; /*hace que las imagenes esten una abajo de la otra*/
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
     background-color:rgb(237, 236, 203);
@@ -149,11 +150,13 @@
     text-align: center;
     font-size: 20px;
     margin: 10px;
-}
- 
+} 
+
+---------------------*/
+ /*------------------------- Nosotros para celular ----------------------*/
 
 
-/*------------------------- Nosotros para celular ----------------------*/
+
 
 .headernosotros{
     display: flex;
@@ -768,10 +771,10 @@
         
          
      }    
-    
+    /*------- si no uso bootstrap uso esta parte 
     .tarjetasnovedades{
         display: flex;
-        flex-direction: row; /*hace que las imagenes esten una al lado de la otra*/
+        flex-direction: row; 
         align-items: center;
         justify-content: center;
         background-color:rgb(237, 236, 203);
@@ -835,6 +838,8 @@
         font-size: 20px;
         margin: 10px;
     }
+
+    --------*/
      
     
 

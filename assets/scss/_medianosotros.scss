@@ -1,0 +1,67 @@
+@media(min-width:768px){
+    
+
+   .headernosotros{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(237, 236, 203);
+
+    tituloHeadernosotros{
+        background-image: url(../img/portada4.png);
+        background-size:contain;
+        width: 100%;
+        text-align: center;
+        font-style: oblique;
+        font-size: 40px;
+        height: 200px;
+        padding-top: 60px;
+    }
+
+    
+}
+
+
+
+.mainnosotros{
+    
+    background-color: rgb(237, 236, 203);
+    background-size:contain;
+    width: 100%;
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px;
+    Parrafo1Mainnosotros{
+
+        font-size: 20px;
+        padding: 80px;
+        margin-block-end: 20px;
+        text-align: center;
+        background-color: rgb(237, 236, 203) ;
+    
+    }
+    Parrafo2Mainnosotros{
+        font-size: 20px;
+        padding-top: 10px;
+        padding-block-end: 80px;
+        text-align: center;
+        font-weight: 600;
+    
+    }
+
+    videoMainNosotros{
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+        margin-block-end: 20px;
+        background-image: url(../img/portada4.png);
+    
+    }
+    
+
+}
+
+
+}

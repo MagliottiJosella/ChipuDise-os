@@ -1,0 +1,238 @@
+
+@media(min-width:768px){
+    
+    .Productos{
+
+
+        text-align:left;
+        font-size: 18px;
+        color:rgb(78, 0, 114) ;
+        padding-top: 5%;
+        padding-left: 5%;
+        background-color: rgb(237, 236, 203);
+        height: 100px;
+    
+    
+    }
+    
+    .Productos2{
+    
+        text-align:left;
+        font-size: 18px;
+        color:rgb(78, 0, 114) ;
+        padding-top: 5%;
+        padding-left: 5%;
+        background-color: rgb(237, 236, 203);
+    
+    
+    }
+    .Productos2 h2{
+        margin: 0%;
+    }
+    
+    
+    /*----------------- Header----------------------*/
+    
+    .headerproductos{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(237, 236, 203);
+    
+        tituloHeaderproductos{
+            background-image: url(../img/portada4.png);
+            background-size:contain;
+            text-align: center;
+            width: 100%;
+            height: 200px;
+            padding-top: 60px;
+            font-size: 60px;
+            font-style: oblique;
+        
+        
+        }
+    
+    }
+    
+    
+    
+    /*---------------- Cuadros -------------------*/
+    .productoscuadros{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(237, 236, 203);
+        padding: 50px;
+    
+        cuadro1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 400px; ;
+            height: 500px; ;
+            margin: 50px;
+            border: 2px solid rgb(78, 0, 114);
+    
+            cuadro1_img{
+                width: 300px;
+                height: 300px;
+            }
+            
+            cuadro1_titulo{
+                text-align: center;
+                font-size: 30px;
+                color:rgb(78, 0, 114) ;
+                padding: 5%;   
+            }
+    
+            cuadro1_descripcion{
+                text-align: center;
+                font-size: 15px;
+                color:black;
+                padding: 5%;
+            }
+    
+    
+    
+     
+        
+        }
+    
+        cuadro2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 400px; ;
+            height: 500px; ;
+            margin: 50px;
+            border: 2px solid rgb(78, 0, 114);
+         
+        cuadro2_img{
+           width: 300px;
+           height: 300px;
+            }
+    
+        cuadro2_titulo{
+         text-align: center;
+         font-size: 30px;
+         color:rgb(78, 0, 114) ;
+         padding: 5%;
+        }
+         cuadro2_descripcion{
+            text-align: center;
+            font-size: 15px;
+            color:black;
+            padding: 5%;
+        
+        }
+    }
+    
+    
+    }
+    
+    
+    /*-------------- otros productos------------------*/
+    .productosvarios{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(237, 236, 203);
+        padding: 50px;
+    
+        
+        varios1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 400px; ;
+        height: 500px; ;
+        margin: 50px;
+        border: 2px solid rgb(78, 0, 114);
+    
+        varios1_titulo{
+            text-align: center;
+            font-size: 30px;
+            color:rgb(78, 0, 114) ;
+            padding: 5%;
+            margin: 0%;
+            
+            }
+    
+        }
+    
+        varios1_img{
+            width: 300px;
+            height: 300px;
+        
+        }
+    
+        varios1_descripcion{
+            text-align: center;
+            font-size: 15px;
+            color:black;
+            padding: 5%;
+            margin:0%;
+        
+        
+        }
+    
+        .varios2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 400px; ;
+            height: 500px; ;
+            margin: 50px;
+            border: 2px solid rgb(78, 0, 114);
+    
+            
+        varios2_img{
+        width: 300px;
+        height: 300px;
+         }
+    
+    
+    
+       varios2_titulo{
+        text-align: center;
+        font-size: 30px;
+        color:rgb(78, 0, 114) ;
+        padding: 5%;
+        margin: 0%;
+        }
+    
+        varios2_descripcion{
+        text-align: center;
+        font-size: 15px;
+        color:black;
+        padding: 5%;
+        margin:0%;
+        }
+    
+        }
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
